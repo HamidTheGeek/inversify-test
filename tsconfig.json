@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {},
+        "module": "amd",
+        "target": "es5",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "outDir": "dist",
+        "declaration": true,
+        "declarationDir": "typings",
+        "noImplicitUseStrict": true,
+        "inlineSourceMap": true,
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "types": [
+            "reflect-metadata"
+        ],
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "typings",
+        "dist",
+        "node_modules"
+    ],
+    "compileOnSave": true
+}

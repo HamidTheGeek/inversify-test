@@ -1,0 +1,3 @@
+interface IApplyColor {
+    colorize(): void;
+}
